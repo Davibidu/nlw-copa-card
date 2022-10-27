@@ -1,7 +1,9 @@
-let isIgnite = false
+let isExplorer = true
 function changeCard(event) {
-  const card = event.currentTarget
-  const bg = isIgnite ? "explorer" : "ignite"
-  isIgnite = !isIgnite
-  card.style.backgroundImage = `url(./assets/bg-${bg}.svg)`
+ const card = event.currentTarget
+ const bg = isExplorer
+   ? "ignite"
+   : "explorer"
+isExplorer = !isExplorer
+card.style.backgroundImage = `url(./assets/${bg}.svg)`
 }

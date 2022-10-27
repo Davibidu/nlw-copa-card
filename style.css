@@ -6,59 +6,63 @@
 
 body * {
   font-family: "Roboto";
+  
 }
 
-body {
-  background: linear-gradient(150deg, #0f2b05, #000000);
-  height: 100vh;
-
+body { 
   text-align: center;
+  background: linear-gradient(151.79deg, #0F2B05 4.34%, #000000 87.6%);
+  height: 100vh;
+ 
 }
 
 header {
-  padding: 75px 0;
+  
+  padding: 45px 0;
 }
 
 .card {
-  display: inline-block;
-  width: 354px;
+ display: inline-block;
   height: 508px;
-
-  background-image: url(./assets/bg-explorer.svg);
+  width: 354px;
+  
+  background-image: url(./assets/explorer.svg);
 
   cursor: pointer;
-
-  opacity: 0;
-  transform: translateY(-100px);
-  animation: appear 0.4s forwards;
-
-  user-select: none;
-  -webkit-user-select: none;
+ 
+ 
+    opacity: 0;
+    transform: translateY(-100px);
+    animation: appear .6s forwards ;
+   
+     user-select: none;
+     -webkit-user-select: none ;   
 }
+  
 
 .card > img {
-  width: 150px;
   height: 150px;
+  width: 150px;
   object-fit: cover;
   border-radius: 50%;
-  border: 4px solid #f7dd43;
+  border: 4px solid #F7DD43;
   margin-top: 115px;
 
   pointer-events: none;
-  user-select: none;
-  -webkit-user-select: none;
+-webkit-user-select: none ;
+user-select: none;
 }
 
 .info {
-  margin-top: 98px;
+  margin-top: 98px; 
   color: white;
   margin-left: 70px;
   text-align: left;
 }
 
 .info h1 {
-  font-size: 18px;
-  line-height: 140%;
+font-size: 18px;
+line-height: 140%;
 }
 
 .info p {
