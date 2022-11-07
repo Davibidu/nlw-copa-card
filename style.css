@@ -35,10 +35,11 @@ header {
     transform: translateY(-100px);
     animation: appear .6s forwards ;
    
-     user-select: none;
+   
      -webkit-user-select: none ;   
+     user-select: none;
 }
-  
+    
 
 .card > img {
   height: 150px;
